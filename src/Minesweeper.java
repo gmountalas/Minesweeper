@@ -70,7 +70,7 @@ public class Minesweeper {
     }
 
     public static void main(String[] args) {
-        Minesweeper minesweeper = new Minesweeper(Integer.parseInt(args[0]), Integer.parseInt(args[1]), Integer.parseInt(args[1]));
+        Minesweeper minesweeper = new Minesweeper(Integer.parseInt(args[0]), Integer.parseInt(args[1]), Integer.parseInt(args[2]));
         minesweeper.placeMines();
         minesweeper.adjacentMinesCount();
         minesweeper.printMinesweeperBoard();
